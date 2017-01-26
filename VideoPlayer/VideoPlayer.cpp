@@ -14,12 +14,13 @@ using namespace std;
 int main( int argc, char** argv )
 {
 	VideoCapture cap;
-	cap.open("tcp://192.168.1.1:5555/video?h264");
+	//cap.open("tcp://192.168.1.1:5555/video?h264");
+	//cap.open("tcp://192.168.0.3:80/cgi-bin/fwstream.cgi?FwModId=0&PortId=0&PauseTime=0&FwCgiVer=0x0001");
+	cap.open("rtsp://192.168.0.3/cam0_1");
 	//cap.open("Drone.mov");
 
-
+	// Print build information.
 	std::cout << "Using OpenCV version " << CV_VERSION << std::endl ;
-
 	std::cout << getBuildInformation();
 
 

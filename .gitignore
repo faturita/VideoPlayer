@@ -27,3 +27,10 @@
 *.exe
 *.out
 *.app
+*.pdb
+*.ilk
+*.ipch
+*.idb
+*.tlog
+*.lastbuildstate
+*.opensdf
