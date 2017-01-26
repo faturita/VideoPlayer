@@ -40,7 +40,7 @@ x64 - VC11 y VC12 (Visual Studio 2012 and Visual Studio 2013)
 * Create a New Empty Visual Studio project (console app)
 * Use the following testing code (move away the RTC _tmain)
 
-```
+```cpp
  #include <opencv2/core.hpp>
  #include <opencv2/imgcodecs.hpp>
  #include <opencv2/highgui.hpp>
